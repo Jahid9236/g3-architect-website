@@ -139,5 +139,10 @@ header{
   }
   .teams-img-container img{
     width: 100%;
+    margin-left: 0;
+  }
+  .teams-text{
+    width: 100%;
+    margin-left: 0;
   }
 }
