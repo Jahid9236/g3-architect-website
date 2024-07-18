@@ -216,6 +216,28 @@ header{
   font-size: 500;
 }
 
+/* responsive features section */
+
+@media screen and (max-width: 576px) {
+  .feature-title{
+    margin-top: 30px;
+  }
+  .subtext{
+    margin-left: 15px;
+  }
+  .feature-img img{
+    width: 100%;
+  }
+  .feature-btn{
+    background-color: #FF900E;
+    color: #ffffff;
+    width: 350px;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+  }
+}
+
 
 
 /* facts section */
