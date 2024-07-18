@@ -219,6 +219,13 @@ header{
 /* responsive features section */
 
 @media screen and (max-width: 576px) {
+  .features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+ 
   .feature-title{
     margin-top: 30px;
   }
